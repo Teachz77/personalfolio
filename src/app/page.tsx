@@ -1,4 +1,4 @@
-
+"use client"
 import { Home } from "./Pages/home/HomePage";
 
 const Main = () =>  {
