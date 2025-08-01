@@ -6,22 +6,22 @@ export default function Web2Page() {
 
     const projects = [
         {
-        name: "Money Management",
-        description:"App for management money with income feature and dispensing feature",        
-        techStack: ["React.js", "TypeScript",],
-        githubUrl: "https://github.com/Teachz77/Web-App-Money-Management",
-        liveUrl: "https://web-app-money-management.vercel.app/",
-        image: "/mockup1.png",
-        imageAlt: "Web Money Management",
+            name: "Money Management",
+            description:"App for management money with income feature and dispensing feature",        
+            techStack: ["React.js", "TypeScript",],
+            githubUrl: "https://github.com/Teachz77/Web-App-Money-Management",
+            liveUrl: "https://web-app-money-management.vercel.app/",
+            image: "/mockup1.png",
+            imageAlt: "Web Money Management",
         },
         {
-        name: "Notes App",
-        description:"App for write a note in website",
-        techStack: ["Next.js", "TypeScript", "Hono", "PostgreSQL"],
-        githubUrl: "https://github.com/Teachz77/Notes-app-w-react",
-        liveUrl: "https://hatznote.netlify.app/",
-        image: "/mockup2.png",
-        imageAlt: "Notes",
+            name: "Notes App",
+            description:"App for write a note in website",
+            techStack: ["React.js", "TypeScript"],
+            githubUrl: "https://github.com/Teachz77/Notes-app-w-react",
+            liveUrl: "https://hatznote.netlify.app/",
+            image: "/mockup2.png",
+            imageAlt: "Notes",
         },
     ];
     
@@ -30,9 +30,9 @@ export default function Web2Page() {
             <div className="max-w-7xl mx-auto flex flex-col items-center justify-center">
 
                 <div className="text-center mb-12">
-                    <h1 className="text-5xl mt-4 mb-8 font-normal">
+                    <h2 className="text-5xl mt-4 mb-8 font-normal">
                         Web2 Projects
-                    </h1>
+                    </h2>
                 </div>
 
                 <div className="grid gap-12 mb-12 w-full">
